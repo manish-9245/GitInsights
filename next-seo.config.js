@@ -15,7 +15,7 @@ export default {
     site_name: "git-to-get",
     images: [
       {
-        url: "https://res.cloudinary.com/dbxcernxw/image/upload/v1642425441/git-o-get/ogimage_mmpaia.jpg",
+        url: "https://imageupload.io/ib/ek37Q6MCON8lZFH_1693839818.png",
         width: 2024,
         height: 1012,
         alt: "Get Your git",
