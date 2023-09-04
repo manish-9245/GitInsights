@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Components */
+@import "./scss/item";
+@import "./scss/button";
+
+body {
+  background: #f1f5f8;
+}
+
+* {
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: #9a65fd #d2c8ff;
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #c8c8ff;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #9a65fd;
+}
+
+g,
+path {
+  &:focus {
+    outline: none !important;
+  }
+}
